@@ -28,3 +28,6 @@ pipeline = initialize_pipeline(config["numeric_features"], config["categorical_f
 
 model, evaluation = train_and_evaluate(pipeline, config, train_df, val_df)
 print(evaluation)
+
+save_metadata(evaluation, config,"models\model_versioning\models_history.json")
+#save_model(model, evaluation, )

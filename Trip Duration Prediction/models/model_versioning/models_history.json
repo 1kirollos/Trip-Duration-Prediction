@@ -1,0 +1,110 @@
+[
+    {
+        "evaluation": {
+            "mean_squared_error": 0.6121913761252835,
+            "r2_score": 0.11818534977322137
+        },
+        "metadata": {
+            "model_id": "2",
+            "numeric_features": [],
+            "categorical_features": [
+                "pickup_longitude",
+                "pickup_latitude",
+                "dropoff_longitude",
+                "dropoff_latitude",
+                "sin_hour",
+                "cos_hour",
+                "sin_day_of_week",
+                "cos_day_of_week",
+                "pickup_longitude_log1p",
+                "pickup_latitude_log1p",
+                "dropoff_longitude_log1p",
+                "dropoff_latitude_log1p",
+                "distance",
+                "distance_log1p",
+                "man_distance",
+                "man_distance_log1p"
+            ],
+            "target": "trip_duration_log_transform",
+            "pipeline_steps": [
+                "StanderScaler",
+                "encoding"
+            ],
+            "hyperparameters": {
+                "alpha": 1.0
+            }
+        }
+    },
+    {
+        "evaluation": {
+            "mean_squared_error": 0.6121913761252835,
+            "r2_score": 0.11818534977322137
+        },
+        "metadata": {
+            "model_id": "1",
+            "numeric_features": [],
+            "categorical_features": [
+                "pickup_longitude",
+                "pickup_latitude",
+                "dropoff_longitude",
+                "dropoff_latitude",
+                "sin_hour",
+                "cos_hour",
+                "sin_day_of_week",
+                "cos_day_of_week",
+                "pickup_longitude_log1p",
+                "pickup_latitude_log1p",
+                "dropoff_longitude_log1p",
+                "dropoff_latitude_log1p",
+                "distance",
+                "distance_log1p",
+                "man_distance",
+                "man_distance_log1p"
+            ],
+            "target": "trip_duration_log_transform",
+            "pipeline_steps": [
+                "StanderScaler",
+                "encoding"
+            ],
+            "hyperparameters": {
+                "alpha": 1.0
+            }
+        }
+    },
+    {
+        "evaluation": {
+            "mean_squared_error": 0.6121913761252835,
+            "r2_score": 0.11818534977322137
+        },
+        "metadata": {
+            "model_id": "1",
+            "numeric_features": [],
+            "categorical_features": [
+                "pickup_longitude",
+                "pickup_latitude",
+                "dropoff_longitude",
+                "dropoff_latitude",
+                "sin_hour",
+                "cos_hour",
+                "sin_day_of_week",
+                "cos_day_of_week",
+                "pickup_longitude_log1p",
+                "pickup_latitude_log1p",
+                "dropoff_longitude_log1p",
+                "dropoff_latitude_log1p",
+                "distance",
+                "distance_log1p",
+                "man_distance",
+                "man_distance_log1p"
+            ],
+            "target": "trip_duration_log_transform",
+            "pipeline_steps": [
+                "StanderScaler",
+                "encoding"
+            ],
+            "hyperparameters": {
+                "alpha": 1.0
+            }
+        }
+    }
+]

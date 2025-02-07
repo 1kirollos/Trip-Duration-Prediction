@@ -1,5 +1,5 @@
 {
-    "model_id": "ridge_model",
+    "model_id": "1",
     "model": {
         " cat_features": [
             "vendor_id", "passenger_count", "year", "month", "day", "hour", "minute",
